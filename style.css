@@ -490,6 +490,7 @@ body{
         font-size: 30px;
         white-space: nowrap;
         animation: none;
+        text-align: center;
     }
     .footer h3{
         font-size: 15px;
@@ -506,6 +507,10 @@ body{
     }
     #all{
         margin-left: 20px;
+    }
+    .contact-title h2{
+        white-space: nowrap;
+        font-size: 30px;
     }
 }
 
