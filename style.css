@@ -59,7 +59,7 @@ body{
     padding: 20px 10px;
 }
 .header-logo{
-    font-size: 40px;
+    font-size: 20px;
 }
 .section-area{
     height: 500px;
@@ -86,8 +86,9 @@ body{
 .button .icon{
     margin-left: 10px;
 }
+
 .section-right img{
-    width: 350px;
+    width: 100%;
 }
 .section-left{
     margin-right: 200px;
@@ -273,10 +274,13 @@ body{
     justify-content: center;
     margin: 50px 0;
 }
+.collection-rating{
+    font-size: 10px;
+}
 .fa-star.filled{
     color: #FB8200;;
 }
-.fa-star.empty{
+.fa-star-half-alt.empty{
     color: #FB8200;
 }
 .fa-star{
@@ -374,7 +378,7 @@ body{
     display: flex;
     background-color: #2c2c54;
     align-items: center;
-    margin: 80px;
+    margin: 75px;
 }
 .footer h3{
     color: #FFFFFF;
@@ -481,12 +485,30 @@ body{
         display: none;
     }
 }
-@media screen and (max-width:400px) {
+@media screen and (max-width:450px) {
     .section-title::before{
         font-size: 30px;
         white-space: nowrap;
         animation: none;
     }
+    .footer h3{
+        font-size: 15px;
+        padding: 10px 10px;
+        text-align: center;
+    }
+    .footer p{
+        font-size: 10px;
+        text-align: center;
+        line-height: 1.5;
+    }
+    .fab-icon{
+        font-size: 15px;;
+    }
+    #all{
+        margin-left: 20px;
+    }
 }
+
+
 
 
