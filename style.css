@@ -25,7 +25,7 @@ body{
     font-size: 15px;
     border: 0;
     outline: 0;
-    padding: 10px 30px;
+    padding: 10px 40px;
     color: #ffff;
     background-image: linear-gradient(90deg, #FF008E, #ac1e6a);
     border-radius: 20px;
@@ -371,14 +371,16 @@ body{
     text-align: center;
     padding: 20px;
 }
+
 /* footer area */
 .footer{
-    height: 200px;
+    height: 250px;
     justify-content: center;
     display: flex;
     background-color: #2c2c54;
+    text-align: center;
+    margin-top: 100px;
     align-items: center;
-    margin: 75px;
 }
 .footer h3{
     color: #FFFFFF;
