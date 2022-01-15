@@ -27,12 +27,12 @@ body{
     outline: 0;
     padding: 10px 30px;
     color: #ffff;
-    background-image: linear-gradient(90deg, #FF008E, #a53270);
+    background-image: linear-gradient(90deg, #FF008E, #ac1e6a);
     border-radius: 20px;
-    margin-top: 10px;
+    margin-top: 15px;
     text-transform: uppercase;
     cursor: pointer;
-    box-shadow: 0 8px 0 #3f2232;
+    box-shadow: 0 8px 0 #481a33;
 }
 .common-button:active{
     top: 5px;
@@ -87,7 +87,7 @@ body{
     margin-left: 10px;
 }
 .section-right img{
-    width: 100%;
+    width: 350px;
 }
 .section-left{
     margin-right: 200px;
@@ -274,10 +274,10 @@ body{
     margin: 50px 0;
 }
 .fa-star.filled{
-    color: #ffc014;
+    color: #FB8200;;
 }
 .fa-star.empty{
-    color: #AEAEAE;
+    color: #FB8200;
 }
 .fa-star{
     font-size: 12px;
